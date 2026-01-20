@@ -27,8 +27,6 @@ public class CheckWeatherEvery30Minutes
         if (response != null)
         {
             _logger.LogInformation($"[CheckWeatherEvery30Minutes] Weather in Bistrita is: {response.Current.Temperature}");
-
-            // have some trigger here
         }
         else
         {
